@@ -87,5 +87,9 @@ class ArrayQueue<E>
         aq.add(56);
         aq.print();
         System.out.println(aq.size());
+        for(int i=0;i<aq.size();i++)
+            System.out.println(aq.get(i));
+        for(int i=0;i<aq.size();i++)
+            System.out.println(aq.get(i));
     }
 }
